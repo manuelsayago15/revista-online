@@ -1,0 +1,17 @@
+@media only screen and (max-width: 992px){
+	.main__image{
+		width: 24em;
+		height: 11em;
+	}
+}
+
+@include respond-to('xl'){
+	.main__news{
+		width: 74%;
+		grid-gap: 10px;
+	}
+
+	.main__image{
+		width:17rem;
+	}	
+}

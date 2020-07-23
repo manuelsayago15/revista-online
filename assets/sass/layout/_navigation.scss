@@ -1,0 +1,40 @@
+.navigation{
+	border-bottom: 1px solid $gray;
+}
+.navigation__list li{
+	list-style:none;
+	grid-gap:1px;
+	grid-row: 8 /12;
+}
+a{
+	text-decoration: none;
+	color: $purple;
+}
+@include respond-to('md'){
+	.navigation{
+		margin-left:0;
+		margin-right: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.navigation__list{
+		margin-left: -22px;
+	}
+	ul{
+		margin-left:0;
+		padding-left:0;
+	}
+	.navigation__logo{
+	 @include relative-converter(font-size, rem, $x-large, 16);
+	}
+}
+
+@media only screen and (max-width: 768px){
+	 .us{
+	 	display:none;
+	 }
+	 .navigation__list li{
+	 	@include relative-converter(font-size, rem, $medium, 16);
+	 }
+}
+

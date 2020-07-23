@@ -1,0 +1,15 @@
+/* Typography Base
+   ========================================================================== */
+h1, h2,h3, h4, h5, h6 {
+  font-family: $roboto-mono;
+}
+
+h1, h2, h4 {
+  @include relative-converter(font-size, rem, $large, 16);
+  font-weight: $semi-bold;
+}
+li{
+	font-family: $roboto-mono;
+	font-weight: $semi-bold;
+	@include relative-converter(font-size, rem, $medium, 16);
+}

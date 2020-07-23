@@ -1,0 +1,29 @@
+//Colores
+$gray: #E3E1DB;
+$orange: #FFB454;
+$intense-orange: #FF6602;
+$white: #fff;
+$blue: #4682b4;
+$purple: #663366;
+
+//Tipografía
+$roboto-mono:'Roboto Mono', monospace;
+
+//Peso de fuentes
+$light-typo: 300;
+$semi-bold: 600;
+
+//Tamaños de fuente
+$xxx-large: 70;
+$xx-large: 40;
+$x-large: 30;
+$large: 18;
+$medium: 12;
+
+//Breakpoints
+$breakpoints: (
+  'sm': (min-width: 576px),
+  'md': (min-width: 768px),
+  'lg': (min-width: 992px),
+  'xl': (min-width: 1200px),
+);

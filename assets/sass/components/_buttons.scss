@@ -1,0 +1,10 @@
+.section__button{
+	background-color: $orange;
+	border: 0px $orange;
+	color: $white;
+	font-weight: $semi-bold;
+	padding: 3px;
+	&:hover{
+		background-color: $intense-orange;
+	}
+}
